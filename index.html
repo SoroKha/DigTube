@@ -17,16 +17,8 @@
       <br>
       <form id="myForm" autocomplete="off">
           <div class="form-group">
-            <input class="form-control" type="text" id="search" placeholder="Topic" required>
-          </div>
-          <div class="form-group">
-            <label for="duration">Duration:</label>
-            <select class="form-control" id="duration">
-              <option>any</option>
-              <option>short</option>
-              <option>medium</option>
-              <option>long</option>
-            </select>
+            <label for="topic">Topic:</label>
+            <input class="form-control" type="text" id="search" required>
           </div>
           <div class="form-group">
             <label for="order">Order:</label>
@@ -40,11 +32,11 @@
             </select>
           </div>
           <div class="form-group">
-              <label for="fromdate">Before:</label>
+              <label for="fromdate">Before: (MM/DD/YYYY)</label>
               <input type="text" class="form-control" name="" id="beforedate">
           </div>
           <div class="form-group">
-            <label for="fromdate">After:</label>
+            <label for="afterdate">After: (MM/DD/YYYY)</label>
             <input type="text" class="form-control" name="" id="afterdate">
         </div>
           <div class="form-group">
@@ -66,6 +58,10 @@
       </table>
   </div>
 </body>
+<footer class="text-center">
+  <p>This service is driven by YouTube's API and is in compliance with their terms of service.</p>
+  <p><a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a></p>
+</footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

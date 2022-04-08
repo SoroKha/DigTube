@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>DigTube</title>
+    <link rel="icon" href="/images/favicon.ico">
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -12,7 +13,9 @@
   <div class="container">
       <br>
       <h1 class="text-center">
-          DigTube
+        <a href="/index.html">
+          <img class="img-fluid " style="width:35%;height:35%;" src="/images/logo.png" >
+        </a>
       </h1>
       <br>
       <form id="myForm" autocomplete="off">
@@ -40,8 +43,8 @@
             <input type="text" class="form-control" name="" id="afterdate">
         </div>
           <div class="form-group">
-              <button id="btn" class="btn btn-danger btn-block">
-                  Search
+              <button id="btn" class="btn btn-success btn-block">
+                  Dig!
               </button>
                 <ul id="pagination" class="pagination"></ul>
           </div>
@@ -59,7 +62,7 @@
   </div>
 </body>
 <footer class="text-center">
-  <p>This service is driven by YouTube's API and is in compliance with their terms of service.</p>
+  <p>This application is driven by YouTube's API and is in compliance with their terms of service.</p>
   <p><a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a></p>
 </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
